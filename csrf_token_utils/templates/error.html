@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Auto-Show Alert and Redirect</title>
+</head>
+<body>
+
+<script>
+    window.onload = function() {
+        alert('PLEASE PRESS ANY BUTTONS TO ANALYZE UR TEXT');
+        setTimeout(function() {
+            window.location.href = 'http://127.0.0.1:8000/'; // Replace 'main.html' with the URL of your main page
+        },0); // Delay the redirection for 2 seconds (2000 milliseconds)
+    };
+</script>
+
+</body>
+</html>
